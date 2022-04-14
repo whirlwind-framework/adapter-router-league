@@ -1,0 +1,28 @@
+{
+    "name": "whirlwind-framework/adapter-router-league",
+    "description": "Whirlwind framework adapter for league/route, laminas/laminas-diactoros and laminas/laminas-httphandlerrunner",
+    "keywords": [
+        "router request response adapter"
+    ],
+    "authors": [
+        {
+            "name": "Alexander Stepanenko",
+            "email": "alex.stepanenko@gmail.com"
+        }
+    ],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~7.4||>=8.0",
+        "league/route": "5.*",
+        "laminas/laminas-diactoros": "2.*",
+        "laminas/laminas-httphandlerrunner": "2.*",
+        "whirlwind-framework/framework": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Whirlwind\\Adapter\\League\\": "src"
+        }
+    }
+}
