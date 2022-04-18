@@ -15,6 +15,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": "~7.4||>=8.0",
+        "ext-json": "*",
         "league/route": "5.*",
         "laminas/laminas-diactoros": "2.*",
         "laminas/laminas-httphandlerrunner": "2.*",
