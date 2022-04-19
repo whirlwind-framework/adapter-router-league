@@ -19,7 +19,8 @@
         "league/route": "5.*",
         "laminas/laminas-diactoros": "2.*",
         "laminas/laminas-httphandlerrunner": "2.*",
-        "whirlwind-framework/framework": "*"
+        "whirlwind-framework/framework": "*",
+        "league/container": "4.2.0"
     },
     "autoload": {
         "psr-4": {
