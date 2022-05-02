@@ -65,6 +65,6 @@ class LeagueApplicationServiceProviderAdapter extends AbstractServiceProvider im
 
     public function provides(string $id): bool
     {
-        return in_array($id, $this->provides, true);
+        return \in_array($id, $this->provides, true);
     }
 }
