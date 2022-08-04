@@ -2,4 +2,3 @@
 vendor
 /phpunit-8.5.8.phar
 /composer.phar
-composer.lock
