@@ -17,7 +17,7 @@
         "php": "~7.4||>=8.0",
         "ext-json": "*",
         "league/route": "5.*",
-        "laminas/laminas-diactoros": "~2.10.0",
+        "laminas/laminas-diactoros": "~2.24.0",
         "laminas/laminas-httphandlerrunner": "2.*",
         "whirlwind-framework/framework": "*",
         "league/container": "4.2.0"
